@@ -1,0 +1,303 @@
+
+body{
+    font-family: "Party Business";!important;
+   
+}
+
+section {
+    padding-top : 20px; 
+    padding-bottom : 20px;
+    background-repeat:  repeat;
+  }
+
+section.light{
+    background-image: url("./img/bg_light.png");
+  }
+section.dark{
+    background-image: url("./img/bg_dark.png");
+  }
+
+.titlesectiondark {
+    color: white;
+  }
+
+ .titledecor > p {
+    letter-spacing: -3px;
+    vertical-align: top;
+    font-size: 1.5rem; 
+    font-family: "Tengwar";
+    color: #e48e6b;
+  }
+  .titlesection{
+    font-family: "aniron";
+  }
+  .titlesection > h2{
+    font-size: 1.5rem; 
+  }
+  .titlesection > h2 > span{
+    font-size: 1rem; 
+  }
+
+.navigftp{
+    font-family: "aniron";
+    background-color: #fe661d;
+}
+
+.navigftp > .navbar-brand{
+    color: #feffed;
+}
+
+
+.navbar-nav  > li > a{
+    line-height: 1;
+}
+
+.navbar-nav  > li > a{
+    font-size: 1rem;
+    color: #feffed;
+}
+
+.navbar-nav  > li > a:hover{
+    border-bottom: 2px solid currentColor;
+    display: inline-block;
+    line-height: 0.85;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    font-family: "aniron";
+    font-size: 6rem; 
+    color: #fff;
+}
+
+.carousel-caption{
+    font-family: "Party Business";
+    top: 45%;
+    transform: translateY(-55%);
+    bottom: initial;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.carousel-caption > h5{
+    font-size: 3rem;    
+}
+.carousel-caption > h5 > span{
+    font-size: 5rem;    
+}
+.carousel-caption > p{
+    font-size: 2rem;    
+}
+
+.navfellows{
+    font-family: "aniron";
+}
+
+
+.navfellows > li > a{
+    color: #65645f !important;
+}
+
+.navfellows > li > a:hover{
+    text-decoration: underline;
+}
+
+.navfellows > li > .active{
+    color: #fe661d !important;
+    text-decoration: none;
+    border-bottom: 3px solid #fe661d;
+}
+.navfellows > li > .active:after,
+.navfellows > li > .active:before{
+    content: 'b';
+    font-family: "Tengwar";
+}
+
+.cardorganizer{
+margin-right: 15px;
+margin-bottom: 0;
+margin-left: 15px;
+}
+.card-bg-black{
+    background-color: black;
+}
+
+
+
+.imgreward {
+    padding: 2%;
+    margin: 0px auto;
+}
+
+
+.card > .imgreward {
+    opacity:0.3;
+    -webkit-filter:brightness(130%);
+    filter: brightness(130%);
+ }
+
+ .card:hover > .imgreward {
+    opacity:1;
+    filter: none;
+ }
+
+
+ .card > .imgrewarddead {
+    opacity:0.3;
+ }
+ .card:hover > .imgrewarddead {
+    opacity:0.2;
+ }
+
+ .card:hover > .card-img-overlay> .pillreward{
+    visibility: hidden;
+  }
+
+
+.rewardtitle {
+    font-size: 50px;
+    padding-top:10%;
+}
+
+.card:hover > .card-img-overlay > .rewardtitle{
+    padding-top:40%;
+  }
+
+.card:hover > .card-img-overlay > .deadman{
+    text-decoration:line-through !important;
+    text-decoration-color: #fe661d !important;
+  }
+
+.card-body{
+    font-size: 25px;
+    color: #e2e2e2;
+    opacity: .8 !important;
+}
+
+.pillreward{
+    margin-top: 5%;
+    font-size: 20px;
+    color:black;
+}
+
+.pillreward > p{
+    margin: 0rem ;
+}
+
+.pillreward > p > span{
+    font-size: 24px;
+    color:#fe661d;
+}
+
+.pillrewarddead  > p {
+    font-size: 50px;
+    color:#fe661d;
+}
+
+.coinimg{
+    max-width: 200px !important ;
+}
+
+.btncontact{
+    font-family: "aniron";
+    font-size: 20px;
+    color:#fe661d;
+    background-color: white;
+}
+
+.btncontact:hover{
+    background-color:#fe661d;
+    color: white;
+}
+
+.media-body{
+    font-size: 25px;
+}
+.avatar{
+    font-size: 50px;
+    color:#fe661d;
+}
+.btnavatar{
+    font-size: 26px;
+    color:#fe661d;
+    background-color:black
+}
+
+.btnavatar:hover{
+    background-color:#fe661d;
+    color:black
+}
+
+.card-header{
+    font-family: "aniron";
+    background-color:#fe661d;
+    color: white;
+
+}
+
+.card-header > h3{
+    font-size: 1.25rem;
+
+}
+.card-footer{
+    background-color:#fe661d;
+    padding: 0.2rem;
+}
+table{
+    font-family: "aniron";
+}
+thead{
+    font-size: 1.25rem;
+}
+.table thead th{
+    border-top-width: 0px !important;
+    border-bottom-width: 3px !important;
+    border-bottom-color: grey;
+}
+
+tbody{
+    font-size: 1rem;
+}
+tbody > tr > td{
+    padding-left: 1.75rem !important;
+}
+
+.imggollum{
+        height:200px;
+        object-fit: cover;
+}
+
+.imgneed{
+    width:400px;
+}
+
+.textorange{
+    font-family: "aniron";
+    color:#fe661d;
+}
+
+.btnsauron{
+    font-family: "aniron";
+    background-color:black;
+    color:#fe661d;
+    font-size: 1.2rem;
+    overflow-wrap: break-word;
+}
+.btnsauron:hover{
+    color:white;
+}
+
+.form-control{
+    font-family: "aniron";
+    font-size: 1rem;
+}
+footer{
+    font-family: "aniron";
+    color:white;
+    background-color:#fe661d;
+    font-size: 1rem;
+}
+ul{
+    list-style: none !important;
+}

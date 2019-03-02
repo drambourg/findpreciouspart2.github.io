@@ -1,0 +1,40 @@
+
+@font-face {
+    font-family: "aniron";
+    font-style: normal;
+    font-weight: normal;
+	src: url('./fonts/anicb___.ttf');
+}
+
+
+@font-face {
+    font-family: "aniron";
+    font-style: normal;
+	font-weight: bold;
+	src: url('./fonts/anirb___.ttf');
+}
+@font-face {
+    font-family: "Tengwar";
+    font-style: normal;
+    font-weight: normal;
+	src: url('./fonts/tngan.ttf');
+}
+
+@font-face {
+    font-family: "Tengwar";
+    font-style: normal;
+    font-weight: bold;
+	src: url('./fonts/tnganb.ttf');
+}
+
+@font-face {
+    font-family: "Tengwar";
+    font-style: italic;
+    font-weight: bold;
+	src: url('./fonts/tnganbi.ttf');
+}
+
+@font-face {
+    font-family: "Party Business";
+    src: url('./fonts/partybusiness.ttf') format('truetype');
+}
